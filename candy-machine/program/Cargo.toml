@@ -20,21 +20,21 @@ cpi = ["no-entrypoint"]
 default = []
 
 [dependencies]
-anchor-lang = "0.25.0"
+anchor-lang = { git = "https://github.com/paranoikcodit/anchor" }
 arrayref = "0.3.6"
 spl-token = { version = "3.5.0", features = ["no-entrypoint"] }
 mpl-token-metadata = { version = "1.4.3", features = ["no-entrypoint"] }
 spl-associated-token-account = { version = "1.1.1", features = [
   "no-entrypoint",
 ] }
-anchor-spl = "0.25.0"
+anchor-spl = { git = "https://github.com/paranoikcodit/anchor" }
 solana-program = "1.14.3"
 solana-gateway = "0.2.0"
 
 [dev-dependencies]
 solana-program-test = "1.14.3"
 solana-sdk = "1.14.3"
-anchor-client = "0.25.0"
+anchor-client = { git = "https://github.com/paranoikcodit/anchor" }
 borsh = "~0.9.2"
 tarpc = "0.29.0"
 console = "0.15.1"
